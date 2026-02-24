@@ -1,9 +1,17 @@
 ---
 created: 2026-02-23 20:16
-updated: 2026-02-23T21:22
-status: Updating
+updated: 2026-02-24T11:07
+status: Completed
 topics: Debug;Avoid Debug
 ---
+>[!SUMMARY] Table of Contents
+>    - [[Reading8 Avoiding Debugging#First Defense: Make Bugs Impossible|First Defense: Make Bugs Impossible]]
+>    - [[Reading8 Avoiding Debugging#Second Defense: Localize Bugs|Second Defense: Localize Bugs]]
+>        - [[Reading8 Avoiding Debugging#Assertion|Assertion]]
+>        - [[Reading8 Avoiding Debugging#Incremental Development|Incremental Development]]
+>        - [[Reading8 Avoiding Debugging#Modularity & Encapsulation|Modularity & Encapsulation]]
+>            - [[Reading8 Avoiding Debugging#Minimizing the scope of variables|Minimizing the scope of variables]]
+>    - [[Reading8 Avoiding Debugging#Summary|Summary]]
 ## First Defense: Make Bugs Impossible
 
 在[[Reading1 Static Check#Static Check]]中提到了静态检查和动态检查，为了使在设计时让代码免于错误，还可以使用不变量
