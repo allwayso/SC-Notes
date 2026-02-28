@@ -1,6 +1,6 @@
 ---
 created: 2026-02-09 12:12
-updated: 2026-02-09T21:33
+updated: 2026-02-28T21:33
 status: Completed
 topics: Static typing ; Three big properties of good software
 ---

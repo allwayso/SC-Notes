@@ -1,6 +1,6 @@
 ---
 created: 2026-02-18 19:52
-updated: 2026-02-23T20:16
+updated: 2026-02-28T21:33
 status: Completed
 topics: identify and assess nondeterminism；declarative vs. operational ；compare spec strength
 ---

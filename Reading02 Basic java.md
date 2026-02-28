@@ -1,6 +1,6 @@
 ---
 created: 2026-02-10 09:24
-updated: 2026-02-10T11:07
+updated: 2026-02-28T21:33
 status: Completed
 topics: Learn basic Java syntax and semantics;Transition from writing Python to writing Java(not even know python yet :P)
 ---
