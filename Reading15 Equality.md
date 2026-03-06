@@ -1,6 +1,6 @@
 ---
 created: 2026-03-01 10:31
-updated: 2026-03-02T00:34
+updated: 2026-03-06T21:26
 status: Completed
 topics: equals() and hashCode();Object contract;mutable and immutable types
 ---
@@ -52,7 +52,7 @@ set.add(list);
 ```
 此时set.contains(list) → true，但是如果修改了list：`list.add("goodbye")`,contains方法的返回值将会变为false
 
-这是因为list<String>类型的hashCode与其中内容有关，导致以他在HashSet中的哈希值改变。list元素存在旧的哈希值索引处，而contains方法根据新的哈希值找list元素，自然找不到，于是便认为set中不存在这个列表，但是通过遍历却能遍历到这个元素，这体现了hashSet两种方法的矛盾性
+这是因为list\<String>类型的hashCode与其中内容有关，导致以他在HashSet中的哈希值改变。list元素存在旧的哈希值索引处，而contains方法根据新的哈希值找list元素，自然找不到，于是便认为set中不存在这个列表，但是通过遍历却能遍历到这个元素，这体现了hashSet两种方法的矛盾性
 
 由于哈希容器对可变对象的支持不稳定，所以`java.util.Set` 的spec中提醒，如果执意将可变元素作为Set元素，则必须小心谨慎
 
