@@ -1,9 +1,28 @@
 ---
 created: 2026-03-03 11:39
-updated: 2026-03-04T22:32
-status: Updating
-topics:
+updated: 2026-03-07T10:20
+status: Completed
+topics: recursive data type;functions for RDT;structure and definition;write program with RDT
 ---
+>[!SUMMARY] Table of Contents
+>- [[Reading16 Recursive Data Types#Part1：Recursive Data Types|Part1：Recursive Data Types]]
+>    - [[Reading16 Recursive Data Types#Recursive datatype definitions|Recursive datatype definitions]]
+>    - [[Reading16 Recursive Data Types#Functions over recursive datatypes|Functions over recursive datatypes]]
+>    - [[Reading16 Recursive Data Types#Tuning the rep|Tuning the rep]]
+>    - [[Reading16 Recursive Data Types#Avoid Null|Avoid Null]]
+>    - [[Reading16 Recursive Data Types#Another example: Boolean formulas|Another example: Boolean formulas]]
+>    - [[Reading16 Recursive Data Types#Summary for part1|Summary for part1]]
+>- [[Reading16 Recursive Data Types#Part 2: Writing a Program with Abstract Data Types|Part 2: Writing a Program with Abstract Data Types]]
+>    - [[Reading16 Recursive Data Types#Recipes for programming|Recipes for programming]]
+>    - [[Reading16 Recursive Data Types#Problem: matrix multiplication|Problem: matrix multiplication]]
+>        - [[Reading16 Recursive Data Types#Choose datatypes & desigh spec|Choose datatypes & desigh spec]]
+>        - [[Reading16 Recursive Data Types#Test|Test]]
+>        - [[Reading16 Recursive Data Types#Choose a rep|Choose a rep]]
+>        - [[Reading16 Recursive Data Types#Choose an identity|Choose an identity]]
+>        - [[Reading16 Recursive Data Types#Implementing `make` : use factory methods|Implementing `make` : use factory methods]]
+>        - [[Reading16 Recursive Data Types#Implementing `isIdentity` : don’t use `instanceof`|Implementing `isIdentity` : don’t use `instanceof`]]
+>        - [[Reading16 Recursive Data Types#Implementing `optimize` without `instanceof`|Implementing `optimize` without `instanceof`]]
+>    - [[Reading16 Recursive Data Types#summary for part2|summary for part2]]
 # Part1：Recursive Data Types
 
 第一部分讨论了不可变列表类`ImList`的递归定义，不过我们应该先了解递归数据类型的定义，与递归算法类似，递归数据类型也由基础情况和递归步骤定义。
