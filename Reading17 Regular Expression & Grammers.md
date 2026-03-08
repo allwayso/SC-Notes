@@ -1,9 +1,17 @@
 ---
 created: 2026-03-06 20:48
-updated: 2026-03-07T12:46
-status: Updating
+updated: 2026-03-07T21:45
+status: Completed
 topics: Regular expression;grammers
 ---
+>[!SUMMARY] Table of Contents
+>    - [[Reading17 Regular Expression & Grammers#Grammer|Grammer]]
+>        - [[Reading17 Regular Expression & Grammers#Grammar Operators|Grammar Operators]]
+>        - [[Reading17 Regular Expression & Grammers#Example: URL|Example: URL]]
+>        - [[Reading17 Regular Expression & Grammers#Example: Markdown and HTML|Example: Markdown and HTML]]
+>    - [[Reading17 Regular Expression & Grammers#Regular Expression|Regular Expression]]
+>        - [[Reading17 Regular Expression & Grammers#Using regular expressions in Java|Using regular expressions in Java]]
+>        - [[Reading17 Regular Expression & Grammers#Context-Free Grammars|Context-Free Grammars]]
 ## Grammer
 
 Grammer(下称文法)定义了一组sentence(下称语句)，句子是由各种symbol(下称符号)构成的，而这些符号也被叫做terminals(下称终端)，即语法树中没有子节点、不能再被当作变量的常量。
