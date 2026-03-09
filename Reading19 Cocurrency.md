@@ -1,6 +1,6 @@
 ---
 created: 2026-03-08 20:22
-updated: 2026-03-08T22:42
+updated: 2026-03-08T22:44
 status: Completed
 topics: Process,Threads and time-slicing;Anonymous class;Cocurrent bugs
 ---
@@ -8,7 +8,7 @@ topics: Process,Threads and time-slicing;Anonymous class;Cocurrent bugs
 >    - [[Reading19 Cocurrency#Two Models for Concurrent Programming|Two Models for Concurrent Programming]]
 >    - [[Reading19 Cocurrency#Processes, Threads, Time-slicing|Processes, Threads, Time-slicing]]
 >    - [[Reading19 Cocurrency#Anonymous classes|Anonymous classes]]
->        - [[Reading19 Cocurrency#具名类 vs. 匿名类 (Concurrency Context)|具名类 vs. 匿名类 (Concurrency Context)]]
+>        - [[Reading19 Cocurrency#Declared vs Anonymous |Declared vs Anonymous ]]
 >    - [[Reading19 Cocurrency#The else|The else]]
 ## Two Models for Concurrent Programming
 
